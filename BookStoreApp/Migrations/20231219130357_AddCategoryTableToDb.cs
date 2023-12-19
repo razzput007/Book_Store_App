@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BulkyWeb.Migrations
+namespace BookStoreApp.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration
