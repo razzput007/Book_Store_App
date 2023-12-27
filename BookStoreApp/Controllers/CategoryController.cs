@@ -76,7 +76,7 @@ namespace BookStoreApp.Controllers
         }
         public IActionResult Delete(int? id)
         {
-            if (id == null || id == 0)
+            if (id == null || id == 0 && ModelState.IsValid)
             {
                 return NotFound();
             }
